@@ -16,9 +16,8 @@ LOCAL_PATH := vendor/pixelstyle
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2019Static \
-    GooglePermissionControllerOverlay \
-    SoundPickerPrebuilt
+    SoundPickerPrebuilt \
+    GooglePermissionControllerOverlay
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
